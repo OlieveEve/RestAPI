@@ -1,3 +1,5 @@
 *.dart linguist-detectable=true
 *.cmake linguist-detectable=false
 CMakeLists.txt linguist-detectable=false
+android/** linguist-vendored
+ios/** linguist-vendored
