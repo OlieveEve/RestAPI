@@ -8,7 +8,7 @@ class productAPI {
     List productList = [];
     var response = await http.get(Uri.https('fakestoreapi.com', 'products'));
     if (response.statusCode == 200) {
-      // print(response.body);
+      print(response.body);
       var jsonData = jsonDecode(response.body);
       for (var data in jsonData) {
         final product = Products(
